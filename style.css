@@ -7,7 +7,7 @@
 
 body
 {
-    background: gray;
+    background-image:url(bg.jpg);
     user-select: none;
 }
 #wrapper

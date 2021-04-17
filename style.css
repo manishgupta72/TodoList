@@ -7,11 +7,7 @@
 
 body
 {
-<<<<<<< HEAD
-    background-image: url(bg.jpg);
-=======
     background-image:url(bg.jpg);
->>>>>>> a199486ee3f9c0f25a3f94236855da19ac82efd2
     user-select: none;
 }
 #wrapper

@@ -1,0 +1,141 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background: gray;
+    user-select: none;
+}
+#wrapper
+{
+    position:absolute;
+    width:50%;
+    height:500px;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-left: 410px;
+    background:lightslategrey;
+    border-radius: 10px 10px;
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.5);
+
+}
+#tdwrapper
+{
+    position: absolute;
+    width: 90%;
+    height:430px;
+    background:#fff;
+    border-radius: 10px 10px;
+    top:30px;
+    left: 30px;
+    box-shadow:0 5px 5px 0 rgba(0,0,0,0.5);
+}
+#heading
+{
+    font-family: sans-serif;
+    font-weight:800;
+    position: absolute;
+    top: 40px;
+    left: 15px;
+}
+.innerbox h5
+{
+    font-family: sans-serif;
+    margin-top:85px;
+    margin-left:15px;
+}
+
+ #inp
+{
+  margin-top:50px;
+  margin-left: 50px;
+  width:140px;
+  height:40px;
+  padding: 10px 10px;
+  border:2px solid;
+  transition:2s all ease;
+  font-weight: 400;
+  font-size:20px;
+
+}
+#inp:focus
+{
+    width: 175px;
+    border-radius: 10px 10px;
+    outline: none;
+    border:2px solid;
+}
+.innerbox button
+{
+margin-left: 10px;
+background: skyblue;
+width:70px;
+height:30px;
+border-radius: 10px 10px;
+}
+.innerbox button:focus
+{
+    outline: none;
+}
+#clear-btn
+{
+    position:absolute;
+    left:20px;
+    top: 360px;
+    background: salmon;
+    width:100px;
+    height:40px;
+    border-radius:10px 10px;
+    font-weight: 800;
+}
+#clear-btn:focus
+{
+    outline: none;
+}
+
+#Empty-btn
+{
+    position:absolute;
+    left:230px;
+    top: 360px;
+    background: rgb(219, 15, 15);
+    width:100px;
+    height:40px;
+    border-radius:10px 10px;
+    font-weight: 800;
+}
+#Empty-btn:focus
+{
+    outline: none;
+}
+
+#save-btn
+{
+    position:absolute;
+    left:440px;
+    top: 360px;
+    background:greenyellow;
+    width:100px;
+    height:40px;
+    border-radius:10px 10px;
+    font-weight: 800;
+}
+#save-btn:focus
+{
+    outline: none;
+}
+
+#add-text
+{
+    width:90%;
+    height:150px;
+    margin-top:10px;
+    margin-left: 55px;
+    font-size:30px;
+    font-weight:400;
+    overflow-x: auto;
+}
